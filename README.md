@@ -4,7 +4,8 @@
 
 ## 文档目录
 
-- [Issue #1597：NPU Argument Support Matrix](issues/1597/npu-argument-support-matrix/README.md)
+- [测试报告](reports/)
+- [NPU Argument Support Matrix 初始验证记录](reports/2026-09-10-baseline.md)
 
 ## 记录约定
 
