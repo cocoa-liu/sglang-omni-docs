@@ -5,7 +5,7 @@
 ## 文档目录
 
 - [NPU Argument Support Matrix 测试报告](npu-argument-support-matrix-test-reports/)
-- [NPU Argument Support Matrix 初始验证记录](npu-argument-support-matrix-test-reports/2026-09-10-baseline.md)
+- [NPU Argument Support Matrix 初始验证记录](npu-argument-support-matrix-test-reports/baseline.md)
 
 ## 记录约定
 
