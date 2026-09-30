@@ -12,9 +12,9 @@ Qwen3-Omni 的 thinker 负责理解输入、推理和生成文字等结果；语
 
 **一条请求里有很长的文字，仍可能只算一条；字多不等于批大小大。** 这个设置也不是整个服务最多能接多少条请求。
 
-| 参数 | NPU 是否需要 | 本次结论 |
-| --- | --- | --- |
-| `thinker_torch_compile_max_bs` | 需要，用于设置编译计算对应的批次范围 | **需要开发支持**。`torch_compile_max_bs` 依赖 `enable_torch_compile` 生效才能起作用——而 `enable_torch_compile` 在 NPU 上当前不可用，`max_bs` 无从生效。 |
+| 参数 | NPU 是否需要 | 本次结论                                                                                                                       |
+| --- | --- |----------------------------------------------------------------------------------------------------------------------------|
+| `thinker_torch_compile_max_bs` | 不需要，dynamo崩溃（torch_npu不支持NPU） | **不需要开发支持**。`torch_compile_max_bs` 依赖 `enable_torch_compile` 生效才能起作用——而 `enable_torch_compile` 在 NPU 上当前不可用，`max_bs` 无从生效。 |
 
 ## 2. 测试用例
 
